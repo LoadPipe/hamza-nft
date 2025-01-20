@@ -29,13 +29,13 @@ contract HamzaNftCollection is ERC1155Upgradeable, HasSecurityContext {
         _setSecurityContext(securityContext_);
 
         //GOLD 
-        nftTypes[1] = NftTypeSpec(1, "");
+        nftTypes[1] = NftTypeSpec(1, "https://nft.hamza.market/bronze.json");
 
         //SILVER 
-        nftTypes[2] = NftTypeSpec(2, "");
+        nftTypes[2] = NftTypeSpec(2, "https://nft.hamza.market/silver.json");
 
         //BRONZE
-        nftTypes[3] = NftTypeSpec(3, "");
+        nftTypes[3] = NftTypeSpec(3, "https://nft.hamza.market/gold.json");
     }
 
     /**
